@@ -1,1 +1,3 @@
-# analytics_hr
+# Proyek Pertama : Menyelesaikan Permasalahan departemen Human Resources (HR)
+
+##Bussines Understanding
