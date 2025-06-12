@@ -29,3 +29,28 @@ Misalnya: bagaimana mengatur kebijakan lembur, kompensasi, atau skema kerja flek
 - Menyusun dashboard dengan Google Looker Studio untuk menampilkan:
   - KPI seperti attrition rate, jumlah karyawan, rata-rata gaji
   - Visualisasi dari faktor utama penyebab attrition
+
+### Pesiapan 
+#### Sumber Data
+Dataset yang digunakan dalam proyek ini adalah Dataset Karyawan Jaya Jaya Maju sesuai dengan instruksi dari submission proyek. Dataset tersebut tersedia dalam format CSV dan berisi informasi lengkap tentang demografi dan kondisi kerja karyawan, seperti: usia, pendapatan, status pernikahan, jarak rumah ke kantor, status lembur, dan lainnya.
+- Jumlah data: 1.470 baris dan 35 kolom
+- Sumber data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
+
+#### Setup Environment 
+Proyek ini menggunakan environment yang sederhana dan dapat dijalankan sepenuhnya menggunakan tools berbasis cloud, tanpa instalasi lokal.
+- Langkah - langkah :
+1. Buka file notebook.ipynb menggunakan Google Colab
+2. Jalankan seluruh sel untuk melakukan:
+  - Eksplorasi data (EDA)
+  - Pembersihan data
+  - Visualisasi faktor-faktor yang berpengaruh terhadap attrition
+3. Library yang digunakan meliputi:
+  - pandas, numpy – manipulasi dan analisis data
+  - matplotlib, seaborn – visualisasi data
+
+#### Menjalankan Dashboard 
+Untuk melihat dashboard secara interaktif:
+- Gunakan Google Looker Studio
+- Dashboard menampilkan KPI dan visualisasi attrition berdasarkan beberapa variabel penting (Overtime, Income, Age, dll)
+- Tidak memerlukan setup tambahan atau instalasi software lokal
+- Dapat diakses via browser secara langsung
